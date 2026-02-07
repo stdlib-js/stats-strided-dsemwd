@@ -84,7 +84,7 @@ where `s` is the sample [standard deviation][standard-deviation].
 To use in Observable,
 
 ```javascript
-dsemwd = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dsemwd@umd/browser.js' )
+dsemwd = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dsemwd@v0.1.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -96,7 +96,7 @@ var dsemwd = require( 'path/to/vendor/umd/stats-strided-dsemwd/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dsemwd@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dsemwd@v0.1.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -208,7 +208,7 @@ var v = dsemwd.ndarray( 4, 1, x, 2, 1 );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dsemwd@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dsemwd@v0.1.1-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
